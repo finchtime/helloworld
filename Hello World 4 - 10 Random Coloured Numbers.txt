@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<body>
+<center>
+<h1>Hello World!</h1>
+
+<h2>10 Random Coloured Numbers</h2>
+
+<p id="no1"></p>
+<p id="no2"></p>
+<p id="no3"></p>
+<p id="no4"></p>
+<p id="no5"></p>
+<p id="no6"></p>
+<p id="no7"></p>
+<p id="no8"></p>
+<p id="no9"></p>
+<p id="no10"></p>
+
+
+<script>
+document.getElementById("no1").innerHTML =
+Math.floor(Math.random() * 101)
+document.getElementById("no1").style.color =
+'#' + (Math.random() * 0xFFFFFF << 0).toString(16);
+</script>
+
+<script>
+document.getElementById("no2").innerHTML =
+Math.floor(Math.random() * 101);
+document.getElementById("no2").style.color =
+'#' + (Math.random() * 0xFFFFFF << 0).toString(16);
+</script>
+
+<script>
+document.getElementById("no3").innerHTML =
+Math.floor(Math.random() * 101);
+document.getElementById("no3").style.color =
+'#' + (Math.random() * 0xFFFFFF << 0).toString(16);
+</script>
+
+<script>
+document.getElementById("no4").innerHTML =
+Math.floor(Math.random() * 101);
+document.getElementById("no4").style.color =
+'#' + (Math.random() * 0xFFFFFF << 0).toString(16);
+</script>
+
+<script>
+document.getElementById("no5").innerHTML =
+Math.floor(Math.random() * 101);
+document.getElementById("no5").style.color =
+'#' + (Math.random() * 0xFFFFFF << 0).toString(16);
+</script>
+
+<script>
+document.getElementById("no6").innerHTML =
+Math.floor(Math.random() * 101);
+document.getElementById("no6").style.color =
+'#' + (Math.random() * 0xFFFFFF << 0).toString(16);
+</script>
+
+<script>
+document.getElementById("no7").innerHTML =
+Math.floor(Math.random() * 101);
+document.getElementById("no7").style.color =
+'#' + (Math.random() * 0xFFFFFF << 0).toString(16);
+</script>
+</script>
+
+<script>
+document.getElementById("no8").innerHTML =
+Math.floor(Math.random() * 101);
+document.getElementById("no8").style.color =
+'#' + (Math.random() * 0xFFFFFF << 0).toString(16);
+</script>
+
+</script>
+
+<script>
+document.getElementById("no9").innerHTML =
+Math.floor(Math.random() * 101);
+document.getElementById("no9").style.color =
+'#' + (Math.random() * 0xFFFFFF << 0).toString(16);
+</script>
+
+<script>
+document.getElementById("no10").innerHTML =
+Math.floor(Math.random() * 101);
+document.getElementById("no10").style.color =
+'#' + (Math.random() * 0xFFFFFF << 0).toString(16);
+</script>
+
+<center/>
+</body>
+</html>
+
+

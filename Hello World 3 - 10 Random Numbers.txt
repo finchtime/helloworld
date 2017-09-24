@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<body>
+<center>
+<h1>Hello World!</h1>
+
+<h2>10 Random Numbers</h2>
+
+<p id="random1"></p>
+<p id="random2"></p>
+<p id="random3"></p>
+<p id="random4"></p>
+<p id="random5"></p>
+<p id="random6"></p>
+<p id="random7"></p>
+<p id="random8"></p>
+<p id="random9"></p>
+<p id="random10"></p>
+
+
+<script>
+document.getElementById("random1").innerHTML =
+Math.floor(Math.random() * 101);
+</script>
+
+<script>
+document.getElementById("random2").innerHTML =
+Math.floor(Math.random() * 101);
+</script>
+
+<script>
+document.getElementById("random3").innerHTML =
+Math.floor(Math.random() * 101);
+</script>
+
+<script>
+document.getElementById("random4").innerHTML =
+Math.floor(Math.random() * 101);
+</script>
+
+<script>
+document.getElementById("random5").innerHTML =
+Math.floor(Math.random() * 101);
+</script>
+
+<script>
+document.getElementById("random6").innerHTML =
+Math.floor(Math.random() * 101);
+</script>
+
+<script>
+document.getElementById("random7").innerHTML =
+Math.floor(Math.random() * 101);
+</script>
+
+<script>
+document.getElementById("random8").innerHTML =
+Math.floor(Math.random() * 101);
+</script>
+
+<script>
+document.getElementById("random9").innerHTML =
+Math.floor(Math.random() * 101);
+</script>
+
+<script>
+document.getElementById("random10").innerHTML =
+Math.floor(Math.random() * 101);
+</script>
+
+<center/>
+</body>
+</html>
+
+
+
